@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "BMWTypeNext Pro Regular";
+}
+
+video {
+    width: 100%;
+    position: absolute;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    /* padding: 0em 6em; */
+    height: 84px;
+}
+
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    /* background-color: rgb(206, 129, 129); */
+    height: 84px;
+    padding: 0em 6em;
+    
+}
+
+#navigation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 84px;
+    border-bottom: 1px solid white;
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bmw-logo {
+    display: flex;
+    align-items: center;
+    width: 3.25em;
+    
+}
+
+.bmw-logo-anchor {
+    margin: 0 1.5rem 0 0;
+}
+
+
+.links-navigation {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 0.75rem;
+    height: 84px;
+    font-family: "BMWTypeNext Pro";
+    word-spacing: 1px
+    
+}
